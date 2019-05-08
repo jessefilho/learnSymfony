@@ -9,9 +9,10 @@ $ cd your-project/
 $ composer require --dev symfony/web-server-bundle
 
 # Starting the Web Server
-php bin/console server:start
-
-#Open your browser and navigate to 
+$ php bin/console server:start
+or
+$ symfony server:start
+# Open your browser and navigate to
 http://localhost:8000/
 
 more:
